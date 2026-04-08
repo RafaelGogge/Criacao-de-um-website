@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Entre em contato com a Atelier Unisales para duvidas e atendimento personalizado.">
+    <title>Atelier Unisales | Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-wrap">
+            <a href="index.html" aria-label="Atelier Unisales pagina inicial">
+                <img src="img/atelier-unisales.png" alt="Logotipo Atelier Unisales" class="brand-logo logo-mark">
+            </a>
+            <nav class="site-nav" aria-label="Navegacao principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html" class="active" aria-current="page">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner" aria-labelledby="contato-banner-titulo">
+            <div class="container">
+                <p class="eyebrow">Atendimento</p>
+                <h1 id="contato-banner-titulo">Fale com nossa equipe de estilo</h1>
+                <p>Respondemos em ate 1 dia util por e-mail ou WhatsApp.</p>
+            </div>
+        </section>
+
+        <section class="section-block" aria-labelledby="contato-instrucoes-titulo">
+            <div class="container contact-grid">
+                <article>
+                    <h2 id="contato-instrucoes-titulo">Como podemos ajudar?</h2>
+                    <p>
+                        Use o formulario para solicitar atendimento personalizado,
+                        disponibilidade de tamanho, duvidas sobre troca e agendamento de prova.
+                    </p>
+                    <h3>Canais diretos</h3>
+                    <address>
+                        <ul class="feature-list">
+                            <li>WhatsApp: (27) 99999-9999</li>
+                            <li>E-mail: contato@atelierunisales.com.br</li>
+                            <li>Instagram: @atelier.unisales</li>
+                        </ul>
+                    </address>
+                    <p>
+                        Tambem atendemos presencialmente em Sao Paulo.<br>
+                        Veja a localizacao no
+                        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Google Maps</a>.
+                    </p>
+                </article>
+
+                <form class="contact-form" action="#" method="post" id="contact-form">
+                    <fieldset>
+                        <legend>Formulario de contato</legend>
+
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione</option>
+                            <option value="duvida-produto">Duvida sobre produto</option>
+                            <option value="agendamento">Agendamento de prova</option>
+                            <option value="troca">Troca e devolucao</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                        <button type="submit" class="action-button action-button-primary">Enviar mensagem</button>
+                        <p id="form-success-message" class="form-success-message" role="status" aria-live="polite"
+                            hidden>
+                            Mensagem enviada com sucesso!
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="section-block visual-ribbon" aria-labelledby="atendimento-fluxo-titulo">
+            <div class="container">
+                <p class="eyebrow">Fluxo de atendimento</p>
+                <h2 id="atendimento-fluxo-titulo">Como funciona seu atendimento personalizado</h2>
+                <div class="visual-card-grid">
+                    <article class="visual-card">
+                        <p class="visual-card-label">Passo 1</p>
+                        <h3>Recebimento do pedido</h3>
+                        <p>Analisamos seu formulario para entender contexto, urgencia e objetivo do contato.</p>
+                    </article>
+                    <article class="visual-card">
+                        <p class="visual-card-label">Passo 2</p>
+                        <h3>Curadoria de resposta</h3>
+                        <p>Indicamos tamanhos, opcoes de prova, condicoes de troca e sugestoes de composicao.</p>
+                    </article>
+                    <article class="visual-card">
+                        <p class="visual-card-label">Passo 3</p>
+                        <h3>Acompanhamento final</h3>
+                        <p>Seguimos com voce ate a decisao final para garantir seguranca na compra.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <address>
+                <h2>Atelier Unisales</h2>
+                <p>Rua da Moda, 150 - Centro, Sao Paulo - SP</p>
+            </address>
+            <div>
+                <h2>Atendimento</h2>
+                <p>Seg a Sex: 10h as 19h</p>
+                <p>Sabado: 10h as 15h</p>
+            </div>
+            <nav aria-label="Acesso rapido no rodape">
+                <h2>Acesso rapido</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        const contactForm = document.getElementById("contact-form");
+        const successMessage = document.getElementById("form-success-message");
+
+        if (contactForm && successMessage) {
+            contactForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                if (!contactForm.checkValidity()) {
+                    contactForm.reportValidity();
+                    return;
+                }
+
+                contactForm.reset();
+                successMessage.hidden = false;
+            });
+        }
+    </script>
+</body>
+
+</html>

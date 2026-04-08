@@ -1,0 +1,75 @@
+.contact-grid {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.contact-form {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    transition: transform 0.24s ease, box-shadow 0.24s ease;
+}
+
+.contact-form:hover,
+.contact-form:focus-within {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 32px rgba(31, 26, 23, 0.14);
+}
+
+.contact-form fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form legend {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(1.6rem, 4.5vw, 2.3rem);
+    margin-bottom: 0.75rem;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 0.35rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #cfb99f;
+    border-radius: 10px;
+    padding: 0.68rem;
+    margin-bottom: 0.85rem;
+    font: inherit;
+    background-color: #fff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    outline: 2px solid rgba(181, 154, 117, 0.35);
+    border-color: var(--accent-dark);
+}
+
+.form-success-message {
+    margin: 0.35rem 0 0;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #a3c99f;
+    background-color: #edf8eb;
+    color: #2d5a28;
+    font-weight: 700;
+    animation: fadeRise 0.35s ease both;
+}
+
+@media (min-width: 740px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+}

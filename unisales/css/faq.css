@@ -1,0 +1,35 @@
+.faq-layout {
+    max-width: 860px;
+}
+
+.faq-item {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 0.85rem 1rem;
+    margin-bottom: 0.8rem;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.faq-item:hover,
+.faq-item[open] {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(31, 26, 23, 0.12);
+}
+
+.faq-item summary {
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.faq-item summary:hover,
+.faq-item[open] summary {
+    color: var(--accent-dark);
+}
+
+.faq-item p {
+    margin: 0.8rem 0 0;
+    color: var(--muted);
+}

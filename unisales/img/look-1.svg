@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900" role="img" aria-labelledby="title desc">
+  <title id="title">Look Alfaiataria Natural</title>
+  <desc id="desc">Vestuario feminino elegante em tons claros</desc>
+  <rect width="700" height="900" fill="#f8f3ec"/>
+  <rect x="120" y="70" width="460" height="760" rx="32" fill="#e6d5bf"/>
+  <rect x="240" y="160" width="220" height="390" rx="80" fill="#b59a75"/>
+  <rect x="210" y="530" width="280" height="220" rx="30" fill="#1f1a17" opacity="0.88"/>
+  <line x1="200" y1="800" x2="500" y2="800" stroke="#1f1a17" stroke-width="6"/>
+</svg>
